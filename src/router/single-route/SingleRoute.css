@@ -324,6 +324,7 @@
         /* position: static; */
         transform: translateX(-200px);
     }
+  
 }
 @media screen and (max-width: 419px){
     .opwi__singleroute1 h1{

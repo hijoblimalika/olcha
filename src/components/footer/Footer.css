@@ -215,8 +215,7 @@
     }
     .foter__box4 img{
         display: block;
-        width: 400px;
-        transform: translateX(-140px);
+        width: auto;
     }
 }
 
