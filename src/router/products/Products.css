@@ -90,7 +90,7 @@
         position: relative;
     }
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 418px){
     .product__item p {
         width: 150px;
         height: auto;
@@ -98,11 +98,13 @@
     }
     .mtolov2{
         font-size: 15px;
-        color: #DA002B;
     }
     .mtolov{
-        width: 150px;
+        width: 180px;
         font-size: 15px;
+    }
+    .pro__title{
+        margin-left: 15px;
     }
 
 }
