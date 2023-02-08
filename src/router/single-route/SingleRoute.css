@@ -326,6 +326,14 @@
     }
   
 }
+@media screen and (max-width: 469px){
+    .product__item{
+        min-height: 80px;
+    }
+    .product__item b{
+        margin-left: 15px;
+    }
+}
 @media screen and (max-width: 419px){
     .opwi__singleroute1 h1{
         width: 112%;

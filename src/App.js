@@ -20,7 +20,7 @@ function App() {
         <Route path='/products/:id' element={<SingleRoute/>}/>
 
       </Routes>
-      {/* <Footer/> */}
+      <Footer/>
     </div>
   );
 }
