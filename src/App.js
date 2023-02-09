@@ -6,6 +6,7 @@ import Home from './router/home/Home';
 import Like from './router/like/Like'
 import Cart from './router/cart/Cart';
 import Footer from './components/footer/Footer';
+import Taqqoslash from './router/taqqoslash/Taqqoslash';
 
 import SingleRoute from './router/single-route/SingleRoute';
 function App() {

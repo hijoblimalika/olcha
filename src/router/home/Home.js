@@ -12,10 +12,10 @@ function Home() {
       <div className="home">
 
         <Banner/>
+        <Products/>
         <HomeBanner/>
         <HomeMain/>
         <Category/>
-        <Products/>
 
       </div>
     </div>
