@@ -41,6 +41,7 @@
     border: none;
     color: #fff;
     margin-top: -5px;
+    cursor: pointer;
     }
     .like__btn3{
     padding: 7px 40px;
@@ -49,6 +50,7 @@
     border: none;
     color: #fff;
     margin-top: 5px;
+    cursor: pointer;
     }
 
     @media screen and ( max-width:953px ){

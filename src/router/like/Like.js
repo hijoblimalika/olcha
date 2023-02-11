@@ -1,11 +1,13 @@
 import React from 'react'
 import "./Like.css"
 import Empty from "../../components/empty/Empty"
-import { useSelector } from 'react-redux'
-
+import { useSelector, useDispatch } from 'react-redux'
+import { REMOVE_LIKE } from "../../context/action/actionType"
 
     function Like() {
 const like = useSelector(s=> s.heart)
+const dispatch = useDispatch()
+
 console.log(like)
     return (
     <div className='container like'>
@@ -27,7 +29,7 @@ console.log(like)
 
     <div className='like__btn'>
     <button className='like__btn2'>savatchaga qoshish</button>
-    <button className='like__btn3'>O'chirish</button>
+    <button onClick={ ()=> dispatch({type: REMOVE_LIKE, payload: item.id}) } className='like__btn3'>O'chirish</button>
     </div>
     </div>)
     }
