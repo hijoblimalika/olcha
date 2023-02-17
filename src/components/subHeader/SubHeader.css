@@ -1,15 +1,19 @@
-.sub__header{
+.sub__header {
     width: 100%;
     height: 55px;
     background: var(--bg);
-    gap: 30px;
 }
-.sub__container{
+
+.sub__container {
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     color: #fff;
+}
+.sub__container button:hover{
+    background-color: #fff;
+    color: #da002b;
 }
 .sub__container div{
     display: flex;
@@ -20,9 +24,16 @@
     border: 2px solid #fff;
     background: transparent;
     color: #fff;
+    transition: .4s;
 }
-@media screen and ( max-width: 800px ){
+.phone_number a{
+    color: #fff;
+}
+
+
+
+@media screen and (max-width: 700px) {
     .sub__header{
-        width: 110%;
+        display: none;
     }
 }
